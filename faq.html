@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>FAQ</title>
+      <!--
+        Project 5 FAQ Page
+         Filename: faq.html
+      
+         Author:   Brett Howard
+         Date:     11/24/2020
+		 HTML5 and CSS3
+      -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="modernizr.custom.40753.js"></script>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+	  <script src="respond.min.js"></script>
+   </head>
+   <body>
+      <div class="container">
+         <p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p> 
+         
+		 <header>
+            <h1>Frequently Asked Questions</h1>
+         </header>
+		 
+         <nav class="sitenavigation">
+		 <div class="navigation-menu-button">
+		    <img src="images/menu.png" width="60" height="60" alt="Show navigation">
+		 </div>
+            <ul>
+			   <li><a href="about.html">ABOUT</a></li>
+		       <li><a href="bestpractices.html">DISTANCE LEARNING BEST PRACTICES</a></li>
+		       <li><a href="teachersupport.html">TEACHER SUPPORT</a></li>
+		       <li><a href="familysupport.html">FAMILY SUPPORT</a></li>
+		       <li><a href="readingresources.html">READING RESOURCES</a></li>
+			   <li><a href="informationliteracy.html">INFORMATION LITERACY</a></li>
+			   <li><a href="COVID-19.html">COVID-19 RESOURCES</a></li>
+			   <li><a href="faq.html">FREQUENTLY ASKED QUESTIONS</a></li>
+		    </ul>
+         </nav>
+		 
+         <article>
+		    <h2 id="contentstart">FAQs</h2>
+            <p>Many Frequently Asked Questions will be specific to a particular class or district.   Check your district, school, or classroom website for more information.  Check your email often, many teachers and schools use email to communicate with parents and students.</p>
+		    <p>Device Issues</p>
+		       <ol>
+                          <li><a href="https://support.google.com/chromebook#topic=3399709">Chromebook help from Google</a></li> 
+                          <li><a href="https://support.apple.com/ipad">iPad support from Apple</a></li> 
+                       </ol>  
+                    <p>What is a Google Meet and how does it work?</p>
+                       <ol>                       
+                          <li><a href="https://apps.google.com/intl/en/meet/how-it-works/">An article on how Google Meet works</a></li> 
+                          <li><a href="https://www.youtube.com/watch?v=wGXI0KpkR50&ab_channel=Teacher%27sTech">YouTube video on Google Meet</a></li> 
+                       </ol>
+		    <p>How does Zoom work?</p>
+                       <ol>
+                          <li><a href="https://support.zoom.us/hc/en-us/articles/206618765-Zoom-video-tutorials">Video tutorial from Zoom</a></li> 
+                       </ol>
+		    <p>What if we don't have internet at home?</p>
+                       <ol>
+                          <li>Try contacting your school.  They may have mobile wifi devices available for checkout.</li> 
+                          <li>Some schools may have amplified their wifi signal to be available in the school parking lot, check with your local district.</li> 
+                          <li>Many public libraries also have mobile wifi devices available for checkout.</li> 
+                          <li>Public libraries also have free wifi inside and may have boosted their signals to their parking lots or they may have computers available for use inside.</li>
+                          <li>Some cable and internet providers are offering low cost plans to help families secure wifi for their students learning at home.
+                             <ol>
+                                <li><a href="https://www.highspeedinternet.com/resources/are-there-government-programs-to-help-me-get-internet-service">Low-Cost and Government programs to help families get internet coverage.</a></li> 
+                                <li><a href="https://www.fcc.gov/companies-have-gone-above-and-beyond-call-keep-americans-connected-during-pandemic">Internet companies with pandemic programs from the FCC.</a></li> 
+                             </ol>
+                           </li>
+                       </ol>
+                  <p>What is an LMS?</p>
+                       <ol>
+                          <li>An LMS is a learning management system.  There are many companies that sell LMS’s such as Brightspace, Moodle, Schoology, and Canvas.  An LMS is a place where a school can place content, grade student work, communicate with students and parents, and organize and store curriculum and information.  It has the advantage of being the same for the entire school so that all students will access their classes and coursework in the same way, easing confusion for students and families.</li> 
+                       </ol>
+                 <p>How does Google Classroom Work?</p>
+                       <ol>
+                          <li><a href="https://support.google.com/edu/classroom/answer/6020279?hl=en&ref_topic=7175444
+">Google Classroom information from Google Support</a></li> 
+                       </ol>
+      <div id="form">
+         <h2>Ask a Question:</h2>
+         <p>If you have a question that has not been answered here, please take a moment to fill out the form below.  </p>
+         <form action="showform.php" method="post">
+            <fieldset class="visitorinfo">
+               <legend>Visitor Name</legend>
+               <label for="name">
+                  First and Last Name
+                  <input type="text" name="name" id="name">
+               </label>
+            </fieldset>
+            <fieldset class="emailinput">
+               <legend>Email Address</legend>
+               <label for="emailinput">
+                  Email Address
+                  <input type="email" name="email" id="emailinput" placeholder="address@example.com">
+               </label>
+            </fieldset>
+            <fieldset class="dateinfo">
+               <legend>Date of your visit to this site.</legend>
+               <div class="date-picker">
+                  <label for="month">Date
+                  </label>
+                  <select id="month"
+                  name="month">
+                     <option value="01">January</option>
+                     <option value="02">February</option>
+                     <option value="03">March</option>
+                     <option value="04">April</option>
+                     <option value="05">May</option>
+                     <option value="06">June</option>
+                     <option value="07">July</option>
+                     <option value="08">August</option>
+                     <option value="09">September</option>
+                     <option value="10">October</option>
+                     <option value="11">November</option>
+                     <option value="12">December</option>
+                  </select>
+                  <label for="day">Day
+                  </label>
+                  <select id="day"
+                  name="day">
+                     <option value="01">1</option>
+                     <option value="02">2</option>
+                     <option value="03">3</option>
+                     <option value="04">4</option>
+                     <option value="05">5</option>
+                     <option value="06">6</option>
+                     <option value="07">7</option>
+                     <option value="08">8</option>
+                     <option value="09">9</option>
+                     <option value="10">10</option>
+                     <option value="11">11</option>
+                     <option value="12">12</option>
+                     <option value="13">13</option>
+                     <option value="14">14</option>
+                     <option value="15">15</option>
+                     <option value="16">16</option>
+                     <option value="17">17</option>
+                     <option value="18">18</option>
+                     <option value="19">19</option>
+                     <option value="20">20</option>
+                     <option value="21">21</option>
+                     <option value="22">22</option>
+                     <option value="23">23</option>
+                     <option value="24">24</option>
+                     <option value="25">25</option>
+                     <option value="26">26</option>
+                     <option value="27">27</option>
+                     <option value="28">28</option>
+                     <option value="29">29</option>
+                     <option value="30">30</option>
+                     <option value="31">31</option>
+                  </select>
+                  <label for="year">Year
+                  </label>
+                  <select id="year"
+                  name="year">
+                     <option value="2020">2020</option>
+                     <option value="2021">2021</option>
+                     <option value="2022">2022</option>
+                  </select>
+               </div>
+            </fieldset>
+            <fieldset class="question">
+               <legend>What is your question?</legend>
+               <textarea name="feedback" id="feedback" rows="20" cols="35">
+               </textarea>
+            </fieldset>
+            <fieldset class="submitbutton">
+               <input type="submit" id="submit" value="Submit">
+            </fieldset>
+            </form>
+     </div>
+
+         </article>
+		 
+         <aside>
+            <figure>
+	           <img src="images/faq.jpg" alt="Magnifying glass enlarging the words Frequently Asked Questions">
+	           <figcaption>Frequently Asked Questions</figcaption>
+	        </figure>
+         </aside>
+		 
+         <footer>
+                 <h3 style="text-align: left; color: ivory;">Brett Howard</h3>
+			   <p style="text-align: left; ">Brett Howard taught Pre-K and 4th grade in Idaho, Oregon, and Montana.  She was an elementary library media specialist for three years, and has been working as a middle school/high school library media specialist for the past three years in North Muskegon, Michigan.  She has also worked as a clerk in a public library.  She is currently pursuing her Master's degree in Library and Information Science with a school library endorsement from Wayne State University.  She can be contacted at gr4325@wayne.edu.  </p>
+            <p>&copy; Lourdes Crosby Garcia, Brett Howard, Heather Kapanka, Caroline Kerney</p>
+         </footer>
+		 
+      </div>
+	  <script src="script.js"></script>
+   </body>
+</html>
