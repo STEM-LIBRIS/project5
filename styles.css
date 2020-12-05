@@ -78,15 +78,18 @@ nav.sitenavigation {
    width: 16%;
    float: right;
    text-align: right;
+   
 }
 nav.sitenavigation ul {
    text-align: left;
    display: none;
    position: absolute;
    right: 2%;
+   z-index: 2;
 }
 nav.sitenavigation li {
    font-size: 1.2em;
+   
 }
 nav.sitenavigation a {
    padding: 0.2em;
@@ -154,7 +157,7 @@ article figure {
    float: left;
 }
 #introductionvideo {
-   width: 45%;
+   width: 90%;
    background-color: ivory;
    color: black;
    text-align: left;
@@ -162,6 +165,8 @@ article figure {
    margin: 0.3em;
    padding: 1em 1em 0.5em;
    position: relative;
+   z-index: 1;
+
 }
 video {
    max-width: 100%;
@@ -191,15 +196,16 @@ td {
 }
 /* sidebar */
 aside {
-   width: 24%;
+   width: 93%;
    padding: 1em 3%;
-   float: right;
-   display: none;
+    display: inline-block;
+   text-align: center;
 }
 
 aside p {
    margin: 0 0 1em 1em;
    padding-left: 7%;
+   
 }
 aside figure img {
 	border: 1px solid #660022;
@@ -267,12 +273,17 @@ footer h3 a {
 @media screen and (min-width:500px) {
 	aside {
 		display: block;
+		width: 24%;
+		float: right;
 	}
 	
 	article {
 		width: 70%;
 		
 		float: left;
+	}
+	#introductionvideo {
+		width: 46%;
 	}
 }
 /* standard screen styles*/
