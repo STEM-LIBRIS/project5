@@ -38,7 +38,6 @@
          article td {
             font-size: 1.1em;
             background-color: #bbbbe2;
-
          }
          article ul {
             font-family: Arial, Helvetica, sans-serif;
@@ -62,7 +61,18 @@
          }
          .imgList {
             margin-top: 5px;
-            margin-bottom: 5px;
+            margin-bottom: 5px;            
+         }
+         aside a img {
+            float:left;
+            width:125px;
+            height:125px;
+            border:1px solid black;
+            margin-right:10px;
+            margin-bottom: 10px;
+         }
+         aside p {
+            margin-bottom: -20px;
          }
     
       </style>
@@ -219,21 +229,6 @@
                   Useful strategies for online interactions from Edutopia.
                </p><hr>
                <p class = 'imgList'>
-                  <a href="https://www.npr.org/2020/08/07/900106265/20-questions-to-help-decide-whats-best-for-your-kids-and-you-this-school-year" target="_blank" rel="noopener noreferrer">
-                     <img src="https://drive.google.com/thumbnail?id=157jRZRdIo2TnHFpS5XiAtK2Xuqvtsj5g" 
-                     alt="NPR life kit website"></a>
-                  <h3 style="font-weight: bold">20 Questions To Decide This Year</h3>
-                  20 Questions To help Decide What’s Best For Your Kids (and you) This School Year.  
-                  NPR and Life Kit helping families understand homeschooling while keeping safe. 
-               </p><hr>
-               <p class = 'imgList'>
-                  <a href="https://www.npr.org/2020/03/23/820228206/6-tips-for-homeschooling-during-coronavirus" target="_blank" rel="noopener noreferrer">
-                     <img src="https://drive.google.com/thumbnail?id=1yvTOBRluj4DXXayS_CLytNwXPqXU-o3y" 
-                     alt="NPR homeschooling website"></a>
-                  <h3 style="font-weight: bold">6 Tips for Homeschooling During Coronavirus</h3>
-                  Another article from NRP and Life Kit with resources and tips for families.
-               </p><hr>
-               <p class = 'imgList'>
                   <a href="https://www.healthychildren.org/English/health-issues/conditions/COVID-19/Pages/Tips-to-Juggle-Parenting-and-Working-at-Home-COVID-19.aspx" target="_blank" rel="noopener noreferrer">
                      <img src="https://drive.google.com/thumbnail?id=1yzfPxPJjKO21RdmfMDNx3x57Xe5mgkvF" 
                      alt="American Pediatrics website"></a>
@@ -280,22 +275,26 @@
                   </table>
                -->
          </article>
-		 
          <aside>
-            <figure>
-	           <img src="images/wayne.png" alt="wayne state logo">
-               <figcaption></figcaption>
-               <script>
-                  // Original script source from www.javascriptkit.com, edited by Caroline Kerney
-                  let domainroot="https://sis.wayne.edu/"
-                  gSearch = (curobj) => curobj.q.value="site:"+domainroot+" "+curobj.qfront.value;
-               </script>
-               <form action="http://www.google.com/search" method="get" onSubmit="gSearch(this)" target="_blank" rel="noopener noreferrer">
-                  <input name="q" type="hidden"/>
-                  <input name="qfront" type="text" placeholder="Search Wayne SIS..." id="searchBar"/>
-                  <button style="font-size:18px" type="submit" value="Search">SEARCH <i class="fa fa-search"></i></button> 
-               </form>
-            </figure>
+            <p>
+               <a href="https://www.npr.org/2020/08/07/900106265/20-questions-to-help-decide-whats-best-for-your-kids-and-you-this-school-year" target="_blank" rel="noopener noreferrer">
+                  <img src="https://drive.google.com/thumbnail?id=157jRZRdIo2TnHFpS5XiAtK2Xuqvtsj5g" 
+                  alt="NPR life kit website"></a>
+               <h3 style="font-weight: bold">20 Questions To Decide This Year</h3>
+               <text style = "font-family: Arial, Helvetica, sans-serif; padding-bottom: 0px;">
+                  20 Questions To help Decide What’s Best For Your Kids (and you) This School Year.  
+                  NPR and Life Kit helping families understand homeschooling while keeping safe.
+               </text>
+            </p><hr>
+            <p>
+               <a href="https://www.npr.org/2020/03/23/820228206/6-tips-for-homeschooling-during-coronavirus" target="_blank" rel="noopener noreferrer">
+                  <img src="https://drive.google.com/thumbnail?id=1yvTOBRluj4DXXayS_CLytNwXPqXU-o3y" 
+                  alt="NPR homeschooling website"></a>
+               <h3 style="font-weight: bold">Six Tips for Homeschooling During Coronavirus</h3>
+               <text style = "font-family: Arial, Helvetica, sans-serif; margin-bottom: 0px;">
+                  Another article from NPR and Life Kit with resources and tips for families.
+               </text>
+            </p><hr>
          </aside>
 		 
          <footer>

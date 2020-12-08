@@ -83,19 +83,18 @@
 		 
          <aside>
             <figure>
-	           <img src="images/wayne.png" alt="wayne state logo">
-               <figcaption></figcaption>
-               <script>
-                  // Original script source from www.javascriptkit.com, edited by Caroline Kerney
-                  let domainroot="https://sis.wayne.edu/"
-                  gSearch = (curobj) => curobj.q.value="site:"+domainroot+" "+curobj.qfront.value;
-               </script>
-               <form action="http://www.google.com/search" method="get" onSubmit="gSearch(this)" target="_blank" rel="noopener noreferrer">
-                  <input name="q" type="hidden"/>
-                  <input name="qfront" type="text" placeholder="Search Wayne SIS..." id="searchBar"/>
-                  <button style="font-size:18px" type="submit" value="Search">SEARCH <i class="fa fa-search"></i></button> 
-               </form>
-            </figure>
+					<img src="images/wayne.png" alt="wayne state logo">
+					<script>
+					   // Original script source from www.javascriptkit.com, edited by Caroline Kerney
+					   let domainroot="https://sis.wayne.edu/"
+					   gSearch = (curobj) => curobj.q.value = (`site:${domainroot} ${curobj.qfront.value}`);
+					</script>
+					<form action="http://www.google.com/search" method="get" onSubmit="gSearch(this)" target="_blank" rel="noopener noreferrer">
+					   <input name="q" type="hidden"/>
+					   <input name="qfront" type="text" placeholder="Search Wayne SIS..." id="searchBar"/>
+					   <button style="font-size:18px" type="submit" value="Search">SEARCH&nbsp;&nbsp;&nbsp;<i class="fa fa-search"></i></button> 
+					</form>
+				</figure>
          </aside>
 		 
          <footer>
